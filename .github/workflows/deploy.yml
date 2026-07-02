@@ -33,7 +33,7 @@ jobs:
       run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
 
     - name: Docker Image Deploy To EC2 Instance
-      uses: appleboy/ssh-action@1.1.0
+      uses: appleboy/ssh-action@v1.1.0
       with:
         hosts: ${{ secrets.EC2_INSTANCE_IP }}
         username: ${{ secrets.EC2_USER_NAME }}
