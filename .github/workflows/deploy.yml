@@ -1,7 +1,9 @@
 name: CI/CD Pipeline to Self-Hosted EC2
 
 on:
-  workflow_dispatch: 
+  push:
+    branches:
+      - main 
 
 jobs:
   # Job 1: Build the app and push the Docker image to Docker Hub
