@@ -1,2 +1,7 @@
 this file is created from the git repo
+<<<<<<< HEAD
 this is git file 
+=======
+this is file added from the gitbash
+
+>>>>>>> 25849b85b9ba080224272319f636ea86aa8a7c06
